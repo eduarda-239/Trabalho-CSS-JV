@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #3841bb 16.62%, #847ee2 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items : center;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.cabeçalho-menu {
+
+    display: flex;
+    gap: 15px;
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 200px;
+    border-top: 0.4px solid #000000;
+}
+
+.conteudo-principal-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+.conteudo-principal-2 {
+    margin-top: 150px;
+    border: #000000;
+}
+
+.conteudo-principal-video {
+    display: flex;
+    margin-top: 100px;
+    height: 400px;
+    width: 600px;
+    padding-left: 50px;
+
+}
+
+.conteudo-4 {
+    margin-top: 150px;
+    border: #000000;
+
+}
+
+.conteudo-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo-7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+   
+}
+
+.conteudo-8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 150px;
+    border: #000000;
+
+}
+
+.conteudo-10 {
+    margin-top: 150px;
+    border: #000000;
+
+
+}
+
+.conteudo-11 {
+    font-family: 'Anton', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+.rodape  {
+    border-top: 0.4px solid #000000;
+}
